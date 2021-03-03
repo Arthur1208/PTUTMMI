@@ -1,0 +1,119 @@
+a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    padding-right: 50px;
+    color: #F28B30;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo
+{
+    width: 120%;
+}
+
+nav{
+    display: flex;
+    background-color: #e6e6e6;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepage {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background:linear-gradient(#0B1417,#15252b);
+
+}
+
+
+.LOGO
+{
+    padding: 10px;
+
+}
+
+.present
+{
+
+    margin-top: 120px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50%;
+}
+.left
+{
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+.right 
+{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    grid-column: 2;
+    
+}
+.illu
+{
+    width: 90%;
+}
+
+.rectangle
+{
+    background-color: #e6e6e6;
+    height: 80%;
+    width: 40%;
+    transform: translateY(50px);
+    z-index: 1;
+    box-shadow: #F28B30 10px 10px 1px;
+}
+
+.titre 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.text
+{
+    height: 70%;
+    color: #0B1417;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+
+h2
+{
+    color: #F28B30;
+    font-size: 25pt;
+}
+
+.text1
+{
+    font-size: 20pt;
+    transform: translateX(50px); 
+}
+.text2
+{
+    font-size: 20pt;   
+    transform: translateX(150px); 
+}
+.text3
+{
+    font-size: 20pt;   
+    transform: translateX(50px); 
+}
